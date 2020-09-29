@@ -23,10 +23,10 @@ First, you need to clone this repository
 git clone tommypratama/start-vite-tailwindcss && rm -rf .git && git init
 ```
 
-If you use https://cli.github.com/, you can directly create a repository and using this template
+Or, if you use https://cli.github.com/, you can directly create a repository and using this template
 
 ```bash
-gh repo create name-repository --template start-vite-tailwindcss
+gh repo create name-your-repository --template start-vite-tailwindcss
 ```
 
 Install
