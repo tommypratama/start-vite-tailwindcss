@@ -4,19 +4,19 @@
   "description": "Vue 3 example using Vite and TailwindCSS module.",
   "author": "Tommy Pratama",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "build:github": "vite build --base=/start-vite-tailwindcss/"
+    "build": "cross-env NODE_ENV=production vite build",
+    "build:github": "cross-env NODE_ENV=production vite build --base=/start-vite-tailwindcss/"
   },
   "dependencies": {
+    "tailwindcss": "^1.8.10",
     "vue": "^3.0.0-rc.1"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-rc.1",
-    "autoprefixer": "<10.0.0",
-    "tailwindcss": "^1.8.10",
-    "postcss-cli": "^8.0.0",
+    "cross-env": "^7.0.2",
     "vite": "^1.0.0-rc.1"
   },
   "keywords": [
