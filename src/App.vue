@@ -17,7 +17,7 @@
           />
         </svg>
       </div>
-      <HelloWorld msg="Hello Vue 3.0 + Vite + Tailwindcss" />
+      <HelloWorld msg="Hello Vue 3.0 + Vite + Tailwindcss v2" />
     </div>
   </div>
 </template>
