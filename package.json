@@ -11,12 +11,14 @@
     "build:github": "cross-env NODE_ENV=production vite build --base=/start-vite-tailwindcss/"
   },
   "dependencies": {
-    "tailwindcss": "^1.8.10",
     "vue": "^3.0.0-rc.1"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "autoprefixer": "^9",
     "cross-env": "^7.0.2",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vite": "^1.0.0-rc.1"
   },
   "keywords": [
